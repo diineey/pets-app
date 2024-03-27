@@ -1,0 +1,236 @@
+.registerContainer {
+    margin: auto;
+    width: 600px;
+}
+
+.authLabel {
+    color: #549CD1;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 44px;
+}
+
+.authForm {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.authFormItem {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.authFormLabel {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.authFormInput {
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    height: 56px;
+    padding: 15px 45px 15px 15px;
+    font-weight: 400;
+    font-size: 19px;
+    color: #2F2F2F;
+}
+
+.authFormItemPass {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.authFormInputImg {
+    position: absolute;
+    top: 60%;
+    right: 15px;
+    cursor: pointer;
+}
+
+.authFormPass {
+    position: relative;
+}
+
+.personal {
+    display: flex;
+    margin-top: 27px;
+}
+
+.personal {
+    width: 100%;
+    font-weight: 500;
+    font-size: 19px;
+    color: #B1B1B1;
+    display: flex;
+    align-items: center;
+}
+
+.personal span {
+    color: #549CD1;
+    margin-left: 7px;
+}
+
+.personal input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #C7C7C7 !important;
+}
+
+.registerButton {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #549CD1;
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    margin-top: 45px;
+}
+
+.registerBg {
+    width: 40%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.registerImg {
+    width: 100%;
+    height: 100%;
+}
+
+.registerImgDog {
+    width: 100%;
+    height: 100%;
+}
+
+.imgPos {
+    position: absolute;
+    bottom: -10px;
+    left: 105px;
+}
+
+.radioButton {
+    display: flex;
+    gap: 30px;
+}
+
+.radioButtonItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.authFormItem input[type='radio'] {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #C7C7C7;
+    border-radius: 3px !important;
+    cursor: pointer;
+}
+
+.radioLabel {
+    font-weight: 500;
+    font-size: 19px;
+    color: #B1B1B1;
+}
+
+.radioTooltip {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.radioTooltipText {
+    position: absolute;
+    top: 0;
+    transform: translateX(15%);
+    width: 200px;
+    height: 84px;
+    border-radius: 10px;
+    background-color: #F7FCFF;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.radioTooltipText:before {
+    content: "";
+    position: absolute;
+}
+
+.radioTooltip:hover .radioTooltipText {
+    top: -170%;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+
+/*.radioInput {*/
+/*    margin: 0;*/
+/*    visibility: hidden;*/
+/*}*/
+
+/*.radioInput:checked + span {*/
+/*    border: 2px solid #f4b400;*/
+/*}*/
+
+/*.radioInput:checked + span:after {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.radioSpan {*/
+/*    left: -8px;*/
+/*    top: 6px;*/
+/*    cursor: pointer;*/
+/*    width: 17px;*/
+/*    height: 17px;*/
+/*    border: 2px solid #9a9a9a;*/
+/*    border-radius: 50%;*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*}*/
+
+/*.radioSpan::after {*/
+/*    content: '';*/
+/*    width: 12px;*/
+/*    height: 12px;*/
+/*    background: #f4b400;*/
+/*    position: absolute;*/
+/*    border-radius: 50%;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    opacity: 0;*/
+/*    transition: opacity 0.2s;*/
+/*}*/
+
+/*.radioInput {*/
+/*    position: relative;*/
+/*}*/
+
+/*.radioSpan {*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    border: 1px solid #C7C7C7;*/
+/*    border-radius: 3px;*/
+/*    cursor: pointer;*/
+/*    position: absolute;*/
+/*}*/
+
+/*.radioInput:checked + span {*/
+/*    color: #549CD1;*/
+/*    padding: 4px;*/
+/*}*/

@@ -1,0 +1,122 @@
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 50;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.modalMainContainer {
+    /*width: 920px;*/
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 12px 0 #0000000D;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.modalContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.modalItems {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.modalItem {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 350px;
+}
+
+.modalItem label {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.modalItem select, .modalItem input {
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 19px;
+    width: 350px;
+    outline: none;
+    color: #2F2F2F;
+}
+
+.modalRadio {
+    display: flex;
+    gap: 30px;
+}
+
+.modalRadioItems {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.modalRadioItems input {
+    width: 20px;
+    height: 20px;
+}
+
+.modalRadioItems label {
+   font-size: 19px;
+    font-weight: 400;
+}
+
+.modalButtons {
+    display: flex;
+    gap: 30px;
+    margin-top: 35px;
+    margin-left: 110px;
+}
+
+.modalSave {
+    border-radius: 10px;
+    padding: 14px 35px;
+    color: #FFFFFF;
+    background-color: #549CD1;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.modalCancel {
+    border-radius: 10px;
+    padding: 14px 35px;
+    color: #549CD1;
+    border: 1px solid #549CD1;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.modalPhoto {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #DDF1FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalPhotoActions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
